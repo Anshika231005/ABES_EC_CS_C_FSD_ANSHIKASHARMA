@@ -1,0 +1,33 @@
+.header{
+    background-color: orange;
+}
+.nav-items{
+    display: flex;
+    gap:20px;
+}
+.nav-items a{
+    text-decoration: none;
+    color: white;
+    font:bold;
+    font-size: 32px;
+}
+.nav-items a:hover{
+    color: black;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+}
+
+.nav-links {
+  flex: 1;
+}
+
+.search-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
